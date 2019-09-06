@@ -22,7 +22,7 @@ Source code repository (private access): https://bitbucket.org/andrewcasedayton/
 
 
 ###use case overview
-![Use Case Diagram](Diagrams/use case 1.png "use case diagram")
+![Use Case Diagram](Diagrams/UseCase1.png "use case diagram")
 
 Revision History
 Date	Version	Description
