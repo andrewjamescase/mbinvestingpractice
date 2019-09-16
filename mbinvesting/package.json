@@ -1,0 +1,20 @@
+{
+  "name": "mbinvesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "11.x"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Andrew",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  }
+}
