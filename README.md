@@ -14,6 +14,7 @@ Capstone II Project
 MB Investing
 
 Andrew Case
+casea4@udayton.edu
 
 Project Management Information
 Management board (private access): https://trello.com/b/HecP4clF/cps491-casea4
