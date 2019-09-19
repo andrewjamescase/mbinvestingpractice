@@ -21,12 +21,12 @@ const getChart = (request, response) => {
 }
 
 app.get('/financial', (req, res) => {
-    //build api URL with user zip
+    
     const baseUrl = 'https://cloud.iexapis.com';
-    //ENTER YOUR API KEY HERE (make sure to no include < >)
+    
     const apiId = '?token=pk_10651120478d4b44a4f431c33e678d40';
     const path = '/stable/stock/aapl/quote';
-
+    
     const userLocation = (url1, path, key) => {
        let newUrl = url1 + path + key;
        return newUrl;
@@ -39,7 +39,7 @@ app.get('/financial', (req, res) => {
      .then(data => {
        res.send({ data });
      })
-    //res.status(200).json()
+    
     .catch(err => {
        res.redirect('/error');
     });
