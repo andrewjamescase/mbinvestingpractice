@@ -33,16 +33,25 @@ app.get('/financial', (req, res) => {
     };
 
     const apiUrl = userLocation(baseUrl, path, apiId);
-
+    console.log(apiUrl);
     fetch(apiUrl) 
      .then(res => res.json())
-     .then(data => {
-       res.send({ data });
+     
+     .then(res => {
+        pool.query(`INSERT INTO chart(id, companysymbol, date, open, close, high, low, change, changepercent, volume, sector) VALUES(124, '${res.symbol}', '2019-09-19', ${res.open},${res.close},${res.high},${res.low},${res.change},${res.changePercent}, ${res.volume},'${res.primaryExchange}') `, (error, results) => {
+            if(error) {
+                console.log(error);
+                throw error
+            }
+            console.log("IEX successfully connected")
+        })
      })
     
     .catch(err => {
+        //console.log(res)
        res.redirect('/error');
     });
+    res.send("IEX connected successfully and inserted the row")
  })
 
 app
