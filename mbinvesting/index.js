@@ -58,7 +58,7 @@ app.get('/financial/companyiex', (req, res) => {
     res.send("IEX connected successfully and inserted the row for the companyiex table")
 })
 app.get('/financial/quoteiex', (req, res) => {
-    const symbolList = new Array ('appl', 'msft', 'amzn')
+    //const symbolList = new Array ('appl', 'msft', 'amzn')
     const baseUrl = 'https://cloud.iexapis.com';
 
     const apiId = '?token=pk_10651120478d4b44a4f431c33e678d40';
@@ -67,7 +67,7 @@ app.get('/financial/quoteiex', (req, res) => {
     symbolList.forEach(function(symbol)  {
 
 
-        const quoteIEXpath = `'/stable/stock/${symbol}/quote`;
+        const quoteIEXpath = `'/stable/stock/aapl/quote`;
 
 
         const userLocation = (url1, path, key) => {
