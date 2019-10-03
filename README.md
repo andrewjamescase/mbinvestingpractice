@@ -61,7 +61,8 @@ System Analysis
 (Start from Sprint 0, keep updating)
 
 High-level Requirements
-List high-level requirements of the project that your team will develop into use cases in later steps
+Work on architecting a route that makes several calls based on the input of a list of stocks
+implement graphs from a third party graphing library (like google) to properly display data
 
 Use cases
 Draw the overview use case diagram, and define use case description (Main focus of Sprint 0)
@@ -79,8 +80,17 @@ For each new sprint cycle, update the implementation of your system (break it do
 
 Specify the development approach of your team, including programming languages, database, development, testing, and deployment environments.
 
+System Design:
+express.js front end
+postgresql server on back end
+
+
+Languages:
+JavaScript
+PostgreSQL
+
 Deployment
-Describe how to deploy your system in a specific platform.
+My system is deployed to heroku. In order to deploye the system I used the Heroku CLI tool to push my repository to the hosting site. In the future, a pipeline will be implemented from bitbucket to heroku so code is pushed together. The current approach is two independent pushes to bitbucket and heroku.
 
 Software Process Management
 (Start from Sprint 0, keep updating)
@@ -89,33 +99,23 @@ Introduce how your team uses a software management process, e.g., Scrum, how you
 
 Include the Trello board with product backlog and sprint cycles in an overview figure and also in detail description. (Main focus of Sprint 0)
 
-Also, include the Gantt chart reflects the timeline from the Trello board. (Main focus of Sprint 0)
+Also, include the Gantt chart reflects the timeline from the Trello board. 
 
 Scrum process
-Sprint 0
-Duration: 1/15/2019-1/28/2019
-
-Completed Tasks:
-Task 1
-Task 2
-...
-Contributions:
-Member 1, x hours, contributed in xxx
-Member 2, x hours, contributed in xxx
-Member 3, x hours, contributed in xxx
-Member 4, x hours, contributed in xxx
 Sprint 1
-Duration: 1/29/2019-2/13/2019
+Duration: 09/06/2019 - 09/27/2019
 
 Completed Tasks:
-Task 1
-Task 2
-...
-Contributions:
-Member 1, x hours, contributed in xxx
-Member 2, x hours, contributed in xxx
-Member 3, x hours, contributed in xxx
-Member 4, x hours, contributed in xxx
+created local express app that connects to my local postgres sql server and gets the chart table
+first successful iex api call. Displays latest apple information on the /financial route
+Created practice file to work on javascript parsing
+successfully posted a fetch request to local server
+Finished a rough draft of the data diagram showing Tables to be pulled from IEX and Alpha Vantage
+Updated get requests to post to company and quote tables based on new data diagram
+bug fixes
+
+
+
 Sprint Retrospection:
 _(Introduction to Sprint Retrospection:
 
