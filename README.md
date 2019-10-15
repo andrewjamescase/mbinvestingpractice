@@ -23,13 +23,13 @@ Source code repository (private access): https://bitbucket.org/andrewcasedayton/
 
 
 ###use case overview
-![Use Case Diagram](Diagrams/UseCase1.png "use case diagram")
+![Use Case Diagram](./Diagrams/UseCase1.png)
 
 Revision History
 Date	Version	Description
 9/5/2019	0.0	Init draft
 
-Overview
+###Overview
 
 MB Investing originally started as a manual process. There were numerous forms that the members of the club had to fill out that were not understood by many within the club. 
 Some of these forms included linking bank accounts to Fidelity, filing for a partnership, and signing contracts regarding the rules of our partnership. 
@@ -54,25 +54,26 @@ Therefore, education was a big part of our organization from the start. I’d sa
   Bank of America (BAC), and Microsoft (MSFT).”
 This needs to be changed because these excel sheets are tedious to maintain and update. The functionality for how we will achieve further financial analysis is explained in Main Functions.
 
-Project Context and Scope
-Describe the context where the project will be used or deployed and the scope of the project your team will develop Note: For sprint 0, you can copy the content from your project proposal in CPS 490. You need to update this section according to in each sprint
+###Project Context and Scope
+For this semester, the project scope is to create server-side logic to parse data pulled from two third party locations, IEX and Alpha Vantage. These two sites hold reliable financial information for a number of different stocks. The data that will be analyzed is a stocks company information, there historical and current stock prices, earnings, balance sheet, cash flow, income statement, and several key statistical measures. A full accounting of this information will be provided in later sections. This information was chosen because it represents a wide array of information about any chosen stock. This information can be used to derive key financial ratios that will be used to make financial decisions for the investment club.
 
-System Analysis
+###System Analysis
 (Start from Sprint 0, keep updating)
 
-High-level Requirements
-Work on architecting a route that makes several calls based on the input of a list of stocks
-implement graphs from a third party graphing library (like google) to properly display data
+###High-level Requirements
+At the highest level, api calls will be made to fetch the data at regular intervals. This data will be parsed and then stored into a heroku database. After this, it will be displayed in tableau where the members of the club will do financial analysis. Based on this analysis, graphs will be created to show users about a particular stocks performance. For example, one of these graphs could contain the top 10 stocks with high performing asset ratios. 
 
-Use cases
+###Use cases
 Draw the overview use case diagram, and define use case description (Main focus of Sprint 0)
 
-System Design
+###System Design
 (Start from Sprint 1, keep updating)
 
 Use-Case Realization
 Database
+![database diagram](./Diagrams/ERdiagram.pdf)
 User Interface
+![User Interface Example](./Diagrams/UserInterface.pdf)
 Implementation
 (Start from Sprint 1, keep updating. However, it is important to prepare the technology from Sprint 0)
 
@@ -83,6 +84,7 @@ Specify the development approach of your team, including programming languages, 
 System Design:
 express.js front end
 postgresql server on back end
+Postman is used for testing API calls
 
 
 Languages:
@@ -90,7 +92,7 @@ JavaScript
 PostgreSQL
 
 Deployment
-My system is deployed to heroku. In order to deploye the system I used the Heroku CLI tool to push my repository to the hosting site. In the future, a pipeline will be implemented from bitbucket to heroku so code is pushed together. The current approach is two independent pushes to bitbucket and heroku.
+My system is deployed to heroku. In order to deploy the system I used the Heroku CLI tool to push my repository to the hosting site. In the future, a pipeline will be implemented from bitbucket to heroku so code is pushed together. The current approach is two independent pushes to bitbucket and heroku.
 
 Software Process Management
 (Start from Sprint 0, keep updating)
