@@ -67,13 +67,16 @@ At the highest level, api calls will be made to fetch the data at regular interv
 Draw the overview use case diagram, and define use case description (Main focus of Sprint 0)
 
 ###System Design
+
 ![Architecture Diagram](./Diagrams/ArchitectureDiagram.png)
 
 Use-Case Realization
 ###Database
+
 ![database diagram](./Diagrams/ERdiagram.png)
 
 ###User Interface
+
 ![User Interface Example](./Diagrams/UserInterface.png)
 
 ###Implementation

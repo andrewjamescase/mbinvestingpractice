@@ -15,7 +15,6 @@ const getChart = (request, response) => {
         if (error) {
             throw error
         }
-        //console.log('here I am')
         response.status(200).json(results.rows)
     })
 }
@@ -24,7 +23,6 @@ const getCompany = (request, response) => {
         if (error) {
             throw error
         }
-        //console.log('here I am')
         response.status(200).json(results.rows)
     })
 }
@@ -57,6 +55,44 @@ app.get('/financial/companyiex', (req, res) => {
         });
     res.send("IEX connected successfully and inserted the row for the companyiex table")
 })
+app.get('/financial/build', (req, res) => {
+    const baseUrl = 'https://cloud.iexapis.com';
+    const apiId = 'token=pk_10651120478d4b44a4f431c33e678d40';
+    const symbols = 'aapl,fb';
+    const symbolsArray = ['appl', 'fb'];
+    const types = 'company,income';
+    const batchIEXpath = `/stable/stock/market/batch?symbols=${symbols}&types=${types}&`;
+    const userLocation = (url1, path, key) => {
+        let newUrl = url1 + path + key;
+        return newUrl;
+    };
+    const batchapiUrl = userLocation(baseUrl, batchIEXpath, apiId);
+    console.log(batchapiUrl);
+
+    fetch(batchapiUrl)
+        .then(res => res.json())
+        .then(res => {
+            
+            //symbolsArray.forEach(function(element){
+            //pool.query(`INSERT INTO companyiex(symbol, companyName, exchange, industry, sector, ceo, securityName) VALUES('${res.element.company.symbol}', '${ res.element.company.companyName}', '${ res.element.company.exchange}','${ res.element.company.industry}', '${ res.element.company.sector}', '${ res.element.companyceo}', '${ res.element.company.securityName}');INSERT INTO incomestatementiex(symbol, reportdate, totalrevenue, costofrevenue, grossprofit, researchanddevelopment, sellinggeneralandadmin, operatingexpense, operatingincome, otherincomeexpensenet, ebit, interestincome, pretaxincome, incometax, minorityinterest, netincome, netincomebasic) VALUES ('${ res.element.income.symbol}', ${ res.element.income.reportDate}, ${ res.element.income.totalRevenue}, ${ res.element.income.costOfRevenue}, ${ res.element.income.grossProfit}, ${ res.element.income.researchAndDevelopment}, ${ res.element.income.sellingGeneralAndAdmin}, ${ res.element.income.operatingExpense}, ${ res.element.income.operatingIncome}, ${ res.element.income.otherincomeexpensenet}, ${ res.element.income.ebit}, ${ res.element.income.interestIncome}, ${ res.element.income.pretaxIncome}, ${ res.element.income.incomeTax}, ${res.element.income.minorityInterest}, ${ res.element.income.netIncome}, ${ res.element.income.netIncomeBasic})`, (error, results) => {
+                //if (error) {
+                   //console.log(error);
+                    //throw error
+                //}
+                //console.log("IEX successfully connected")
+                
+                //})
+                //var result = `INSERT INTO companyiex(symbol, companyName, exchange, industry, sector, ceo, securityName) VALUES('${res.element.company.symbol}', '${ res.element.company.companyName}', '${ res.element.company.exchange}','${ res.element.company.industry}', '${ res.element.company.sector}', '${ res.element.companyceo}', '${ res.element.company.securityName}');INSERT INTO incomestatementiex(symbol, reportdate, totalrevenue, costofrevenue, grossprofit, researchanddevelopment, sellinggeneralandadmin, operatingexpense, operatingincome, otherincomeexpensenet, ebit, interestincome, pretaxincome, incometax, minorityinterest, netincome, netincomebasic) VALUES ('${ res.element.income.symbol}', ${ res.element.income.reportDate}, ${ res.element.income.totalRevenue}, ${ res.element.income.costOfRevenue}, ${ res.element.income.grossProfit}, ${ res.element.income.researchAndDevelopment}, ${ res.element.income.sellingGeneralAndAdmin}, ${ res.element.income.operatingExpense}, ${ res.element.income.operatingIncome}, ${ res.element.income.otherincomeexpensenet}, ${ res.element.income.ebit}, ${ res.element.income.interestIncome}, ${ res.element.income.pretaxIncome}, ${ res.element.income.incomeTax}, ${res.element.income.minorityInterest}, ${ res.element.income.netIncome}, ${ res.element.income.netIncomeBasic})`;
+                
+                console.log(res);
+            })
+        //})
+        .catch(err => {
+            //console.log(res)
+            res.redirect('/error');
+        });
+    res.send("IEX connected successfully and inserted the row for the companyiex table")
+})
 app.get('/financial/quoteiex', (req, res) => {
     //const symbolList = new Array ('appl', 'msft', 'amzn')
     const baseUrl = 'https://cloud.iexapis.com';
@@ -66,7 +102,7 @@ app.get('/financial/quoteiex', (req, res) => {
 
     symbolList.forEach(function(symbol)  {
 
-
+     
         const quoteIEXpath = `'/stable/stock/aapl/quote`;
 
 
