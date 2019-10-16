@@ -71,11 +71,15 @@ Draw the overview use case diagram, and define use case description (Main focus 
 
 Use-Case Realization
 ###Database
-![database diagram](./Diagrams/ERdiagram.pdf)
+![database diagram](./Diagrams/ERdiagram.png)
+
 ###User Interface
-![User Interface Example](./Diagrams/UserInterface.pdf)
-Implementation
-(Start from Sprint 1, keep updating. However, it is important to prepare the technology from Sprint 0)
+![User Interface Example](./Diagrams/UserInterface.png)
+
+###Implementation
+The implementation of MB Investing involves making a node.js route in order to call two different third party servers, IEX and Alpha Vantage. These servers give detailed financial information about different stocks as well as performance indicators for them as well. The flow of this data through the site is shown in the diagram below.
+
+![API flow](./Diagrams/APIflow.png)
 
 For each new sprint cycle, update the implementation of your system (break it down into subsections). It is helpful if you can include some code snippets to illustrate the implementation
 
