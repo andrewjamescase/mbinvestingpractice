@@ -12,7 +12,6 @@ CREATE TABLE CompanyIEX
 CREATE TABLE KeyStatsIEX
 (
     symbol varchar(6),
-    companyName varchar(255),
     marketcap bigint,
     week52high float,
     week52low float,
@@ -106,6 +105,7 @@ CREATE TABLE CashFlowIEX
     capitalExpenditures bigint,
     investments bigint,
     investingActivityOther bigint,
+    totalinvestingcashflows bigint,
     dividendsPaid bigint,
     netBorrowings bigint,
     otherFinancingCashFLows bigint,

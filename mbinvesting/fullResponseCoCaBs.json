@@ -48,7 +48,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "PG",
             "balancesheet": [
                 {
@@ -132,7 +132,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "VZ",
             "balancesheet": [
                 {
@@ -216,7 +216,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MRK",
             "balancesheet": [
                 {
@@ -300,7 +300,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CMCSA",
             "balancesheet": [
                 {
@@ -384,7 +384,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ORCL",
             "balancesheet": [
                 {
@@ -468,7 +468,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "NKE",
             "balancesheet": [
                 {
@@ -552,7 +552,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AMGN",
             "balancesheet": [
                 {
@@ -636,7 +636,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "SBUX",
             "balancesheet": [
                 {
@@ -720,7 +720,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "DHR",
             "balancesheet": [
                 {
@@ -804,7 +804,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "BMY",
             "balancesheet": [
                 {
@@ -888,7 +888,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "SYK",
             "balancesheet": [
                 {
@@ -972,7 +972,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MS",
             "balancesheet": [
                 {
@@ -1056,7 +1056,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CELG",
             "balancesheet": [
                 {
@@ -1140,7 +1140,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CI",
             "balancesheet": [
                 {
@@ -1224,7 +1224,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "TGT",
             "balancesheet": [
                 {
@@ -1308,7 +1308,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AEP",
             "balancesheet": [
                 {
@@ -1392,7 +1392,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "BIIB",
             "balancesheet": [
                 {
@@ -1476,7 +1476,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FISV",
             "balancesheet": [
                 {
@@ -1560,7 +1560,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "DAL",
             "balancesheet": [
                 {
@@ -1644,7 +1644,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MFC",
             "balancesheet": [
                 {
@@ -1728,7 +1728,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ALL",
             "balancesheet": [
                 {
@@ -1812,7 +1812,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "TRI",
             "balancesheet": [
                 {
@@ -1896,7 +1896,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HSY",
             "balancesheet": [
                 {
@@ -1980,7 +1980,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "IQV",
             "balancesheet": [
                 {
@@ -2064,7 +2064,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "LUV",
             "balancesheet": [
                 {
@@ -2148,7 +2148,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "RACE",
             "balancesheet": [
                 {
@@ -2232,7 +2232,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MCK",
             "balancesheet": [
                 {
@@ -2316,7 +2316,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ALXN",
             "balancesheet": [
                 {
@@ -2400,7 +2400,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FNMA",
             "balancesheet": [
                 {
@@ -2484,7 +2484,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CERN",
             "balancesheet": [
                 {
@@ -2568,7 +2568,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HIG",
             "balancesheet": [
                 {
@@ -2652,7 +2652,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "SNPS",
             "balancesheet": [
                 {
@@ -2736,7 +2736,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "KEYS",
             "balancesheet": [
                 {
@@ -2820,7 +2820,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CPRT",
             "balancesheet": [
                 {
@@ -2906,7 +2906,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CDNS",
             "balancesheet": [
                 {
@@ -2990,7 +2990,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CHD",
             "balancesheet": [
                 {
@@ -3074,7 +3074,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CDW",
             "balancesheet": [
                 {
@@ -3158,7 +3158,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HEI",
             "balancesheet": [
                 {
@@ -3242,7 +3242,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "OMC",
             "balancesheet": [
                 {
@@ -3326,7 +3326,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "LH",
             "balancesheet": [
                 {
@@ -3410,7 +3410,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HBAN",
             "balancesheet": [
                 {
@@ -3494,7 +3494,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HAS",
             "balancesheet": [
                 {
@@ -3578,7 +3578,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "DISCA",
             "balancesheet": [
                 {
@@ -3662,7 +3662,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HOLX",
             "balancesheet": [
                 {
@@ -3747,7 +3747,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ALLY",
             "balancesheet": [
                 {
@@ -3831,7 +3831,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "WRB",
             "balancesheet": [
                 {
@@ -3915,7 +3915,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "LDOS",
             "balancesheet": [
                 {
@@ -3999,7 +3999,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FNF",
             "balancesheet": [
                 {
@@ -4083,7 +4083,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ARNC",
             "balancesheet": [
                 {
@@ -4167,7 +4167,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ZBRA",
             "balancesheet": [
                 {
@@ -4251,7 +4251,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "OTEX",
             "balancesheet": [
                 {
@@ -4335,7 +4335,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "RNG",
             "balancesheet": [
                 {
@@ -4419,7 +4419,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "EQH",
             "balancesheet": [
                 {
@@ -4503,7 +4503,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "WST",
             "balancesheet": [
                 {
@@ -4587,7 +4587,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "URI",
             "balancesheet": [
                 {
@@ -4671,7 +4671,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "BAH",
             "balancesheet": [
                 {
@@ -4755,7 +4755,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "DVA",
             "balancesheet": [
                 {
@@ -4839,7 +4839,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AZPN",
             "balancesheet": [
                 {
@@ -4923,7 +4923,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ARCC",
             "balancesheet": [
                 {
@@ -5007,7 +5007,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "VOYA",
             "balancesheet": [
                 {
@@ -5091,7 +5091,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AER",
             "balancesheet": [
                 {
@@ -5175,7 +5175,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HUBS",
             "balancesheet": [
                 {
@@ -5259,7 +5259,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FAF",
             "balancesheet": [
                 {
@@ -5343,7 +5343,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HAE",
             "balancesheet": [
                 {
@@ -5427,7 +5427,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CIEN",
             "balancesheet": [
                 {
@@ -5511,7 +5511,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ICL",
             "balancesheet": [
                 {
@@ -5595,7 +5595,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "INXN",
             "balancesheet": [
                 {
@@ -5679,7 +5679,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ALSN",
             "balancesheet": [
                 {
@@ -5763,7 +5763,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MDU",
             "balancesheet": [
                 {
@@ -5847,7 +5847,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "IART",
             "balancesheet": [
                 {
@@ -5931,7 +5931,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "BPOP",
             "balancesheet": [
                 {
@@ -6015,7 +6015,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "OMF",
             "balancesheet": [
                 {
@@ -6099,7 +6099,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "EV",
             "balancesheet": [
                 {
@@ -6183,7 +6183,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FHN",
             "balancesheet": [
                 {
@@ -6267,7 +6267,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "JBLU",
             "balancesheet": [
                 {
@@ -6351,7 +6351,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MTZ",
             "balancesheet": [
                 {
@@ -6435,7 +6435,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ESNT",
             "balancesheet": [
                 {
@@ -6519,7 +6519,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "RDN",
             "balancesheet": [
                 {
@@ -6603,7 +6603,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AWI",
             "balancesheet": [
                 {
@@ -6687,7 +6687,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "TTEK",
             "balancesheet": [
                 {
@@ -6772,7 +6772,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AGO",
             "balancesheet": [
                 {
@@ -6856,7 +6856,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FTDR",
             "balancesheet": [
                 {
@@ -6940,7 +6940,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "SEDG",
             "balancesheet": [
                 {
@@ -7024,7 +7024,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "AAN",
             "balancesheet": [
                 {
@@ -7108,7 +7108,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FCN",
             "balancesheet": [
                 {
@@ -7192,7 +7192,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "SF",
             "balancesheet": [
                 {
@@ -7276,7 +7276,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FNB",
             "balancesheet": [
                 {
@@ -7360,7 +7360,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "UMPQ",
             "balancesheet": [
                 {
@@ -7444,7 +7444,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "JJSF",
             "balancesheet": [
                 {
@@ -7528,7 +7528,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "LM",
             "balancesheet": [
                 {
@@ -7593,7 +7593,7 @@
             "symbol": "GLOB",
             "cashflow": []
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "GLOB",
             "balancesheet": [
                 {
@@ -7677,7 +7677,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ENPH",
             "balancesheet": [
                 {
@@ -7761,7 +7761,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FII",
             "balancesheet": [
                 {
@@ -7845,7 +7845,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CRUS",
             "balancesheet": [
                 {
@@ -7929,7 +7929,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "MEDP",
             "balancesheet": [
                 {
@@ -8013,7 +8013,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HLI",
             "balancesheet": [
                 {
@@ -8097,7 +8097,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "WAFD",
             "balancesheet": [
                 {
@@ -8181,7 +8181,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "CATY",
             "balancesheet": [
                 {
@@ -8265,7 +8265,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FULT",
             "balancesheet": [
                 {
@@ -8349,7 +8349,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "BAC",
             "balancesheet": [
                 {
@@ -8433,7 +8433,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "BHC",
             "balancesheet": [
                 {
@@ -8518,7 +8518,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "DFS",
             "balancesheet": [
                 {
@@ -8602,7 +8602,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ENTG",
             "balancesheet": [
                 {
@@ -8664,7 +8664,7 @@
             "phone": null
         },
         "cashflowed": {},
-        "balance-sheet": {}
+        "balancedsheet": {}
     },
     "FHLC": {
         "company": {
@@ -8693,7 +8693,7 @@
             "phone": null
         },
         "cashflowed": {},
-        "balance-sheet": {}
+        "balancedsheet": {}
     },
     "FITB": {
         "company": {
@@ -8744,7 +8744,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "FITB",
             "balancesheet": [
                 {
@@ -8806,7 +8806,7 @@
             "phone": null
         },
         "cashflowed": {},
-        "balance-sheet": {}
+        "balancedsheet": {}
     },
     "FUTY": {
         "company": {
@@ -8835,7 +8835,7 @@
             "phone": null
         },
         "cashflowed": {},
-        "balance-sheet": {}
+        "balancedsheet": {}
     },
     "GM": {
         "company": {
@@ -8886,7 +8886,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "GM",
             "balancesheet": [
                 {
@@ -8970,7 +8970,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "HUM",
             "balancesheet": [
                 {
@@ -9032,7 +9032,7 @@
             "phone": null
         },
         "cashflowed": {},
-        "balance-sheet": {}
+        "balancedsheet": {}
     },
     "IJR": {
         "company": {
@@ -9061,7 +9061,7 @@
             "phone": "1.415.597.2000"
         },
         "cashflowed": {},
-        "balance-sheet": {}
+        "balancedsheet": {}
     },
     "INTC": {
         "company": {
@@ -9112,7 +9112,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "INTC",
             "balancesheet": [
                 {
@@ -9196,7 +9196,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "PFE",
             "balancesheet": [
                 {
@@ -9280,7 +9280,7 @@
                 }
             ]
         },
-        "balance-sheet": {
+        "balancedsheet": {
             "symbol": "ROST",
             "balancesheet": [
                 {
