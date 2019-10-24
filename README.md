@@ -22,13 +22,6 @@ Management board (private access): https://trello.com/b/HecP4clF/cps491-casea4
 Source code repository (private access): https://bitbucket.org/andrewcasedayton/cps491-casea4/src/master/
 
 
-### use case overview
-![Use Case Diagram](./Diagrams/UseCase1.png)
-
-Revision History
-Date	Version	Description
-9/5/2019	0.0	Init draft
-
 ### Overview
 
 MB Investing originally started as a manual process. There were numerous forms that the members of the club had to fill out that were not understood by many within the club. 
@@ -60,7 +53,7 @@ For this semester, the project scope is to create server-side logic to parse dat
 
 ### System Analysis
 
-(Start from Sprint 0, keep updating)
+
 
 ### High-level Requirements
 
@@ -68,18 +61,22 @@ At the highest level, api calls will be made to fetch the data at regular interv
 
 ### Use cases
 
-Draw the overview use case diagram, and define use case description (Main focus of Sprint 0)
+![Use Case Diagram](./Diagrams/UseCase1.png)
 
 ### System Design
 
 ![Architecture Diagram](./Diagrams/ArchitectureDiagram.png)
 
-Use-Case Realization
+
 ### Database
+
+This database diagram shows the focus of the project. All the data centers around the company table. This is because all the information shown relates to financial information about stocks. The information all ties in to the company table which has sector and industry tags to show a high level overview of markets, and it can be broken down further to show information about specific stocks.
 
 ![database diagram](./Diagrams/ERdiagram.png)
 
 ### User Interface
+
+This user interface shows what I hope to accomplish by the end of this semester. I hope to use the information we gather from IEX and Alpha Vantage to display meaningful graphs that show financial trends in the market. Some of these graphs could look like the ones shown below.
 
 ![User Interface Example](./Diagrams/UserInterface.png)
 
@@ -89,64 +86,23 @@ The implementation of MB Investing involves making a node.js route in order to c
 
 ![API flow](./Diagrams/APIflow.png)
 
-For each new sprint cycle, update the implementation of your system (break it down into subsections). It is helpful if you can include some code snippets to illustrate the implementation
 
-Specify the development approach of your team, including programming languages, database, development, testing, and deployment environments.
 
-System Design:
+### System Design:
+
 express.js front end
 postgresql server on back end
 Postman is used for testing API calls
 
 
-Languages:
+### Languages:
+
 JavaScript
 PostgreSQL
 
-Deployment
+### Deployment
+
 My system is deployed to heroku. In order to deploy the system I used the Heroku CLI tool to push my repository to the hosting site. In the future, a pipeline will be implemented from bitbucket to heroku so code is pushed together. The current approach is two independent pushes to bitbucket and heroku.
 
-Software Process Management
-(Start from Sprint 0, keep updating)
-
-Introduce how your team uses a software management process, e.g., Scrum, how your teamwork, collaborate.
-
-Include the Trello board with product backlog and sprint cycles in an overview figure and also in detail description. (Main focus of Sprint 0)
-
-Also, include the Gantt chart reflects the timeline from the Trello board. 
-
-Scrum process
-Sprint 1
-Duration: 09/06/2019 - 09/27/2019
-
-Completed Tasks:
-created local express app that connects to my local postgres sql server and gets the chart table
-first successful iex api call. Displays latest apple information on the /financial route
-Created practice file to work on javascript parsing
-successfully posted a fetch request to local server
-Finished a rough draft of the data diagram showing Tables to be pulled from IEX and Alpha Vantage
-Updated get requests to post to company and quote tables based on new data diagram
-bug fixes
 
 
-
-Sprint Retrospection:
-_(Introduction to Sprint Retrospection:
-
-Working through the sprints is a continuous improvement process. Discussing the sprint has just completed can improve the next sprints walk through a much efficient one. Sprint retrospection is done once a sprint is finished and the team is ready to start another sprint planning meeting. This discussion can take up to 1 hour depending on the ideal team size of 6 members. Discussing good things happened during the sprint can improve the team's morale, good team-collaboration, appreciating someone who did a fantastic job to solve a blocker issue, work well-organized, helping someone in need. This is to improve the team's confidence and keep them motivated. As a team, we can discuss what has gone wrong during the sprint and come-up with improvement points for the next sprints. Few points can be like, need to manage time well, need to prioritize the tasks properly and finish a task in time, incorrect design lead to multiple reviews and that wasted time during the sprint, team meetings were too long which consumed most of the effective work hours. We can mention every problem is in the sprint which is hindering the progress. Finally, this meeting should improve your next sprint drastically and understand the team dynamics well. Mention the bullet points and discuss how to solve it.)
-
-Good	Could have been better	How to improve?
-Sprint ...
-Duration: MM/DD/YYYY-MM/DD/YYYY
-
-Completed Tasks:
-Task 1
-Task 2
-...
-Contributions:
-Member 1, x hours, contributed in xxx
-Member 2, x hours, contributed in xxx
-Member 3, x hours, contributed in xxx
-Member 4, x hours, contributed in xxx
-Sprint Retrospection:
-Good	Could have been better	How to improve?
