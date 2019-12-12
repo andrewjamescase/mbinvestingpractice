@@ -49,9 +49,7 @@ This needs to be changed because these excel sheets are tedious to maintain and 
 
 ### Project Context and Scope
 
-For this semester, the project scope is to create server-side logic to parse data pulled from two third party locations, IEX and Alpha Vantage. These two sites hold reliable financial information for a number of different stocks. The data that will be analyzed is a stocks company information, there historical and current stock prices, earnings, balance sheet, cash flow, income statement, and several key statistical measures. A full accounting of this information will be provided in later sections. This information was chosen because it represents a wide array of information about any chosen stock. This information can be used to derive key financial ratios that will be used to make financial decisions for the investment club.
-
-### System Analysis
+For this semester, the project scope is to create server-side logic to parse data pulled from two third party locations, IEX and Alpha Vantage. These two sites hold reliable financial information for a number of different stocks. The data that will be analyzed is a stocks company information, their historical and current stock prices, earnings, balance sheet, cash flow, income statement, and several key statistical measures. A full accounting of this information will be provided in later sections. This information was chosen because it represents a wide array of information about any chosen stock. This information can be used to derive key financial ratios that will be used to make financial decisions for the investment club.
 
 
 
